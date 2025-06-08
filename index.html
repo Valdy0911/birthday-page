@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Script HTML Ucapan Ulang Tahun</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Hai Byaa!</h1>
+    <p>Aku cuma mau bilang nih...</p>
+    <p>Ciyee yang hari ini ultah!</p>
+    <p>Selamat ulang tahun! 🎉</p>
+    <p>Panjang umur dan sehat selalu yaa!</p>
+    <button id="loveButton">LOVE</button>
+    <p id="message" style="display: none;">
+      Happy Level Up Day! ✨<br>
+      Semoga di hari bertambahnya usia kamu ini,<br>
+      kamu bisa menjadi pribadi yang lebih baik lagi yaa.<br>
+      Wish You All The Best 💖
+    </p>
+  </div>
+
+  <script>
+    document.getElementById('loveButton').addEventListener('click', function() {
+      document.getElementById('message').style.display = 'block';
+    });
+  </script>
+</body>
+</html>
